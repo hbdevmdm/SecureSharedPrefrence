@@ -4,7 +4,7 @@
 SecuredPreference is library control that used to store the shared preferences data securely in our application. This library uses following mechanism/algorithm for securing the data
 
 # Use Case
-1. If you want to store the any data in application you can use this library
+If you want to secure your data by storing to shared prefrence this library helps.
 
 Download
 --------
@@ -26,14 +26,14 @@ implementation 'com.hb.securepreference:securepreference:1.0'
 # Features
 It stores the following types of data
    
-   a. String
-   b. Boolean
-   c. Integer
-   d. Float
-   e. Double
-   f. String set
-   g. Custom objects
-   i. List of custom objects
+   a. String <br />
+   b. Boolean <br />
+   c. Integer <br />
+   d. Float <br />
+   e. Double <br />
+   f. String set <br />
+   g. Custom objects <br />
+   i. List of custom objects <br />
 
 # How it works?
 
