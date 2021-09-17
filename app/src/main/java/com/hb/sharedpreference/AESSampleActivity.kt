@@ -33,8 +33,8 @@ class AESSampleActivity : BaseActivity() {
         val rating = securePref.getFloat("rating", 0.0f)
         val fee = securePref.getDouble("fee", 0.0)
         val categories = securePref.getStringSet("categories", null)
-        val patient = securePref.getObject<User>("patient", null)
-        val patients = securePref.getObjectsList<User>("patients", null)
+        val patient = securePref.getObject<User>("patient", User::class.java)
+        /*val patients = securePref.getObjectsList<User>("patients", User::class.java)*/
 
 
         securePref.remove("patients")

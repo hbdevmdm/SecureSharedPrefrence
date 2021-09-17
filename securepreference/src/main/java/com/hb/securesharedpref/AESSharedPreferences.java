@@ -118,11 +118,11 @@ public class AESSharedPreferences implements PreferenceProvider {
     }
 
     @Override
-    public <T> T getObject(String key, Class<T> object) {
+    public <T> T getObject(String key, Class<T> objectx) {
         if (containsKey(key)) {
             String objectString = sharedPreferences.getString(key, null);
             if (objectString != null) {
-                return new Gson().fromJson(objectString, object);
+                return new Gson().fromJson(objectString, objectx);
             }
         }
         return null;
